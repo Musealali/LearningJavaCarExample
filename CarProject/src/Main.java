@@ -1,4 +1,3 @@
-import java.awt.*;
 
 public class Main {
 
@@ -7,7 +6,7 @@ public class Main {
 	    Garage garage = new Garage();
 	    GasolineCar mercedes = new GasolineCar("AB2712", "Mercedes",2019,5,200,22);
         DieselCar toyota = new DieselCar("BD2322", "Toyota", 2018, 5,false, 20.1);
-	    ElectricCar tesla = new ElectricCar("TR3232", "Tesla", 2020, 5, 5000, 120,500);
+	    ElectricCar tesla = new ElectricCar("TT3232", "Tesla", 2020, 5, 5000, 120,500);
 
 	    garage.addCarsToList(mercedes);
         garage.addCarsToList(toyota);
